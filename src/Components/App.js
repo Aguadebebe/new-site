@@ -1,15 +1,19 @@
  import '../App.css';
- import Header from "./Header"
- import Sections from "./Sections";
- import AppProjects from "./AppProjects";
+ import Header from "./Feature1/Header"
+ import Sectionh1 from "./Feature2/Sectionh1";
+ import ProjectLinkBrackets from "./Feature3/ProjectLinkBrackets";
 
 function App() {
+
+   
+
   return (
     <div>
 
        <Header />
-       <Sections />
-       <AppProjects />
+       <Sectionh1 />
+       <ProjectLinkBrackets />
+ 
     </div>
   );
 }

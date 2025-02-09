@@ -4,22 +4,27 @@ const AppProjects = () => {
 
     const apps = [
       { 
-        title: "Todo-List", 
+        title: "Color-Picks,", 
+        url: "https://aguadebebe.github.io/color-picks/", 
+      },
+      
+      { 
+        title: "Todo-List,", 
         url: "https://aguadebebe.github.io/todo-list/",
       },
         
       { 
-        title: "Incrementor", 
+        title: "Incrementor,", 
         url: "https://aguadebebe.github.io/counter/",
       },
         
       { 
-        title: "Carousel-1", 
+        title: "Carousel-1,", 
         url: "https://aguadebebe.github.io/componentz/", 
       },
         
       {  
-        title: "Carousel-2", 
+        title: "Carousel-2,", 
         url: "https://aguadebebe.github.io/acc/", 
       },
         
@@ -28,10 +33,7 @@ const AppProjects = () => {
         url: "https://aguadebebe.github.io/weather-report/", 
       },
       
-      { 
-        title: "Color-Picks", 
-        url: "https://aguadebebe.github.io/color-picks/", 
-      },
+       
     ];
 
     return (
