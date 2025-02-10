@@ -1,4 +1,5 @@
-import AppProjects from "./AppProjects";
+import "./ReactAppProjects.css";
+import ReactAppProjects from "./ReactAppProjects";
 import { Par1 } from "./Par1";
 import { Par2 } from "./Par2";
 import { Curly1 } from "./Curly1";
@@ -9,7 +10,7 @@ const ProjectLinkBrackets = () => {
        <div className="project-container"> 
         <Par1 />
         <Curly1 />
-        <AppProjects /> 
+        <ReactAppProjects /> 
         <Curly2 />
         <Par2 />
         </div>

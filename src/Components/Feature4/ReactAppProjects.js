@@ -1,6 +1,6 @@
+import "./ReactAppProjects.css";
 
-
-const AppProjects = () => {
+const ReactAppProjects = () => {
 
     const apps = [
       { 
@@ -27,18 +27,11 @@ const AppProjects = () => {
         title: "Carousel-2,", 
         url: "https://aguadebebe.github.io/acc/", 
       },
-        
-      { 
-        title: "Incorrect-Weather", 
-        url: "https://aguadebebe.github.io/weather-report/", 
-      },
-      
-       
     ];
 
     return (
         
-        <div className="projects">
+        <div className="map-container">
            {apps.map((app, index) => (
               <a 
                 key={index}
@@ -53,4 +46,4 @@ const AppProjects = () => {
     );
 } 
 
-export default AppProjects;
+export default ReactAppProjects;

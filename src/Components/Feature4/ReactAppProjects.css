@@ -1,0 +1,46 @@
+.app-title {
+    margin-top: 1.5em;
+    color: white;
+    font-size: 1.8em;
+  }
+ 
+  .project-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: radial-gradient(
+      circle,
+     rgb(105, 102, 43),
+     rgb(39, 70, 57),
+     rgb(23, 20, 20)
+    );
+  }
+ 
+  .map-container {
+    flex-direction: column;
+  }
+ 
+  .curly-1 {
+    font-size: 25em;
+    margin-right: 18vw;
+    color: #7505E6;
+    
+  }
+  
+  .curly-2 {
+    font-size: 25em;
+    margin-left: 18vw;
+    color: #7505E6;
+  }
+ 
+  .par-1 {
+    font-size: 25em;
+    color: #E6C705;
+  }
+  
+  .par-2 {
+    font-size: 25em;
+    color: #E6C705;
+  }
+  
+   

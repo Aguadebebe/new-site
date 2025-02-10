@@ -1,7 +1,8 @@
  import '../App.css';
  import Header from "./Feature1/Header"
- import Sectionh1 from "./Feature2/Sectionh1";
- import ProjectLinkBrackets from "./Feature3/ProjectLinkBrackets";
+ import HeroSection from "./Feature2/HeroSection";
+ import ReactProjectTitle from "./Feature3/ReactProjectTitle";
+ import ProjectLinkBrackets from "./Feature4/ProjectLinkBrackets";
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
     <div>
 
        <Header />
-       <Sectionh1 />
+       <HeroSection />
+       <ReactProjectTitle />
        <ProjectLinkBrackets />
  
     </div>

@@ -1,9 +1,9 @@
-
+import "./Header.css";
 
 const Header = () => {
     return (
-         <header className="app-header">
-           Hallo Wurld!
+         <header className="header">
+           Hello World!
          </header>
     );
 }
