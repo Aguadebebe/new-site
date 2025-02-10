@@ -8,11 +8,11 @@ const ProjectLinkBrackets = () => {
      
     return (
        <div className="project-container"> 
-        <Par1 />
-        <Curly1 />
-        <ReactAppProjects /> 
-        <Curly2 />
-        <Par2 />
+         <Par1 />
+         <Curly1 />
+         <ReactAppProjects /> 
+         <Curly2 />
+         <Par2 />
         </div>
     );
 }
