@@ -1,12 +1,11 @@
 import "./ReactProjectTitle.css";
-
+import { Equal } from "Equal";
 const ReactProjectTitle = () => {
-    const equal = "=";
-    
+ 
     return (
         <span>     
           <h1 className="react-project-title">React Project Apps</h1>
-           {equal}
+          <Equal />
         </span>
     );
 }
