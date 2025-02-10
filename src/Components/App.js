@@ -10,12 +10,10 @@ function App() {
 
   return (
     <div>
-
        <Header />
        <HeroSection />
        <ReactProjectTitle />
        <ProjectLinkBrackets />
- 
     </div>
   );
 }
