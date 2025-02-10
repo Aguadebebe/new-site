@@ -1,5 +1,5 @@
  import '../App.css';
- import Header from "./Feature1/Header"
+ import MainTitle from "./Feature1/MainTitle"
  import HeroSection from "./Feature2/HeroSection";
  import ReactProjectTitle from "./Feature3/ReactProjectTitle";
  import ProjectLinkBrackets from "./Feature4/ProjectLinkBrackets";
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-       <Header />
+       <MainTitle />
        <HeroSection />
        <ReactProjectTitle />
        <ProjectLinkBrackets />
