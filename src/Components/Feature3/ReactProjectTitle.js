@@ -5,7 +5,8 @@ const ReactProjectTitle = () => {
     
     return (
         <div>     
-        <h1 className="react-project-title">React Project Apps {equal}</h1>
+          <h1 className="react-project-title">React Project Apps</h1>
+          <span>{equal}</span>
         </div>
     );
 }
