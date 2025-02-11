@@ -12,21 +12,6 @@ const ReactAppProjects = () => {
         title: "Todo-List,", 
         url: "https://aguadebebe.github.io/todo-list/",
       },
-        
-      { 
-        title: "Incrementor,", 
-        url: "https://aguadebebe.github.io/counter/",
-      },
-        
-      { 
-        title: "Carousel-1,", 
-        url: "https://aguadebebe.github.io/componentz/", 
-      },
-        
-      {  
-        title: "Carousel-2,", 
-        url: "https://aguadebebe.github.io/acc/", 
-      },
     ];
 
     return (
